@@ -5,7 +5,7 @@ const lugaresData = [
     lat: 43.2833,
     lng: -5.9167,
     tipo: "cascadas",
-    icono: "../img/icons/agua.svg", 
+    icono: "img/icons/agua.svg", 
     descripcion: "Una cascada escondida en los Picos de Europa.",
   },
   {
@@ -14,7 +14,7 @@ const lugaresData = [
     lat: 43.0167,
     lng: -5.9167,
     tipo: "miradores",
-    icono: "../img/icons/mirador.svg",
+    icono: "img/icons/mirador.svg",
     descripcion: "Vista panorámica única de la cordillera cantábrica.",
   },
   {
@@ -23,7 +23,7 @@ const lugaresData = [
     lat: 43.3167,
     lng: -6.0833,
     tipo: "pueblos",
-    icono: "../img/icons/pueblo.svg",
+    icono: "img/icons/pueblo.svg",
     descripcion: "Pueblo medieval perfectamente conservado.",
   },
   {
@@ -32,7 +32,7 @@ const lugaresData = [
     lat: 43.4667,
     lng: -4.9167,
     tipo: "senderos",
-    icono: "../img/icons/playa.svg",
+    icono: "img/icons/playa.svg",
     descripcion: "Playa pequeña y escondida entre prados verdes.",
   },
   {
@@ -41,7 +41,7 @@ const lugaresData = [
     lat: 43.4667,
     lng: -5.0667,
     tipo: "cuevas",
-    icono: "../img/icons/hoja.svg",
+    icono: "img/icons/hoja.svg",
     descripcion: "Arte rupestre paleolítico en una cueva poco conocida.",
   },
   {
@@ -50,7 +50,7 @@ const lugaresData = [
     lat: 43.0667,
     lng: -6.6333,
     tipo: "senderos",
-    icono: "../img/icons/bosque.svg",
+    icono: "img/icons/bosque.svg",
     descripcion: "Robledal mejor conservado de España.",
   },
 ];
