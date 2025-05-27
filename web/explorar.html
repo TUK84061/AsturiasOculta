@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorar - Asturias Oculta</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="../js/map.js" defer></script>
+    <link rel="stylesheet" href="../css/map.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+      <div class="container">
+        <img src="../img/logo.png" alt="logo" width="100px" />
+        <a class="navbar-brand" href="index.html"> Asturias Oculta</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="explorar.html">Explorar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="perfil.html">Mi perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mb-4">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Busca lugares..."
+          id="searchInput"
+        />
+        <button class="btn btn-outline-secondary" onclick="buscarLugares()">
+          <img src="../img/icons/buscar.svg" alt="buscar" />
+        </button>
+      </div>
+
+      <div class="d-flex flex-wrap gap-2 mb-4">
+        <button
+          class="btn btn-outline-primary active"
+          data-filter="todos"
+          onclick="aplicarFiltro('todos')"
+        >
+          Todos
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          data-filter="cascadas"
+          onclick="aplicarFiltro('cascadas')"
+        >
+          Cascadas
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          data-filter="miradores"
+          onclick="aplicarFiltro('miradores')"
+        >
+          Miradores
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          data-filter="pueblos"
+          onclick="aplicarFiltro('pueblos')"
+        >
+          Pueblos
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          data-filter="senderos"
+          onclick="aplicarFiltro('senderos')"
+        >
+          Senderos
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          data-filter="cuevas"
+          onclick="aplicarFiltro('cuevas')"
+        >
+          Cuevas
+        </button>
+      </div>
+
+      <div id="map" class="mb-4"></div>
+
+      <div id="placesGrid" class="row row-cols-1 row-cols-md-2 g-4"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script></script>
+  </body>
+</html>
