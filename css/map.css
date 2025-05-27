@@ -1,0 +1,20 @@
+#map {
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.place-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.place-image {
+    font-size: 2rem;
+}
+
+.highlighted {
+    border: 2px solid #0073cd;
+}

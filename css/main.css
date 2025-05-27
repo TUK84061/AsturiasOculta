@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+/* Etiquetas generales */
+body {
+  background-color: rgba(173, 216, 230, 0.456);
+}
+header {
+  background-color: #0073cd;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+/* Botones */
+.btn {
+  color: black;
+}
+.btn-primary {
+  background-color: #0073cd;
+  color: white;
+}
+.btn-secondary {
+  background-color: #0073cd;
+}
+.card {
+  background-color: #8fd28e3e;
+  border: 0.5px solid #00b9a1;
+}
+.navbar {
+  background-color: #0073cd !important;
+}
